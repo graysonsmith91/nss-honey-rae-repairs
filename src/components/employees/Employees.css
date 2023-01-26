@@ -1,0 +1,25 @@
+.employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.employee {
+    background-color: hotpink;
+    color: black;
+    padding: 0.5rem;
+    border: 2px dotted fuchsia;
+    margin: 0.5rem;
+}
+
+.employee-header {
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.employee-footer {
+    padding: 5px;
+    font-size: 1rem;
+    font-style: italic;
+}
